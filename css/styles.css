@@ -8,3 +8,16 @@ html {
   line-height: 1.8em;
   color: #6666;
 }
+
+.parallax-img1,
+.parallax-img4 {
+  background: url('../img/coding1.jpeg');
+}
+
+.parallax-img2 {
+  background: url('../img/coding3.jpeg');
+}
+
+.parallax-img3 {
+  background: url('../img/coding4.jpg');
+}
