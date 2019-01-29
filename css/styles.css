@@ -56,7 +56,14 @@ div.parallax-img3 {
   text-transform: uppercase;
 }
 
-.border {
+.caption .border {
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+}
+
+.caption .border.trans {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* SECTION STYLINGS */
