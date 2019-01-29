@@ -44,6 +44,22 @@ div.parallax-img3 {
   min-height: 400px;
 }
 
+/* PARALLAX TEXT */
+.caption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 1.4rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.border {
+}
+
+/* SECTION STYLINGS */
 .section {
   text-align: center;
   padding: 50px 80px;
