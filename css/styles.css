@@ -9,15 +9,34 @@ html {
   color: #6666;
 }
 
-.parallax-img1,
-.parallax-img4 {
+/* PARALLAX IMAGE STYLING */
+
+/* we position relative with no repeating and centered, we make sure that it covers the full container */
+
+div.parallax-img1,
+div.parallax-img2,
+div.parallax-img3 {
+  color: #000;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* attachment fixed makes parallax and scroll is for normal */
+  background-attachment: fixed;
+}
+
+.parallax-img1 {
   background: url('../img/coding1.jpeg');
+  min-height: 100%;
 }
 
 .parallax-img2 {
   background: url('../img/coding3.jpeg');
+  min-height: 400px;
 }
 
 .parallax-img3 {
   background: url('../img/coding4.jpg');
+  min-height: 400px;
 }
