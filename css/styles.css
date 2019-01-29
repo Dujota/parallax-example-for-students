@@ -81,3 +81,12 @@ div.parallax-img3 {
   background-color: #282e34;
   color: #ddd;
 }
+
+/* REMOVE PARALLAX FOR MOBILE DEVICES */
+@media (max-width: 568px) {
+  div.parallax-img1,
+  div.parallax-img2,
+  div.parallax-img3 {
+    background-attachment: scroll;
+  }
+}
