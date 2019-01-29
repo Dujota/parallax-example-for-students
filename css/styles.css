@@ -22,7 +22,10 @@ div.parallax-img3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* attachment fixed makes parallax and scroll is for normal */
+  /*
+  fixed = parallax
+  scroll = normal(default attachment)
+  */
   background-attachment: fixed;
 }
 
